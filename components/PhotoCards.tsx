@@ -121,18 +121,35 @@ const PhotoCard: React.FC<PhotoProps> = ({ position, rotation, url, isFocused, i
 
 // Reliable static Picsum IDs
 const IMAGE_URLS = [
-  "https://picsum.photos/id/10/500/500", 
-  "https://picsum.photos/id/11/500/500", 
-  "https://picsum.photos/id/12/500/500", 
-  "https://picsum.photos/id/13/500/500", 
-  "https://picsum.photos/id/14/500/500", 
-  "https://picsum.photos/id/15/500/500", 
-  "https://picsum.photos/id/16/500/500", 
-  "https://picsum.photos/id/17/500/500", 
-  "https://picsum.photos/id/18/500/500", 
-  "https://picsum.photos/id/19/500/500", 
-  "https://picsum.photos/id/20/500/500", 
-  "https://picsum.photos/id/28/500/500", 
+  // "https://picsum.photos/id/10/500/500", 
+  // "https://picsum.photos/id/11/500/500", 
+  // "https://picsum.photos/id/12/500/500", 
+  // "https://picsum.photos/id/13/500/500", 
+  // "https://picsum.photos/id/14/500/500", 
+  // "https://picsum.photos/id/15/500/500", 
+  // "https://picsum.photos/id/16/500/500", 
+  // "https://picsum.photos/id/17/500/500", 
+  // "https://picsum.photos/id/18/500/500", 
+  // "https://picsum.photos/id/19/500/500", 
+  // "https://picsum.photos/id/20/500/500", 
+  // "https://picsum.photos/id/28/500/500", 
+  "630b84a5d3852943d8fae6fb6c5dc494.JPG",
+  "81618e88e434f07f9d58f07cf8ff0a2d.JPG",
+  "57474786be2b46c0413e6fad90442a8c.JPG",
+  "b0c6ced96189a4a18c7cd2616714fdc9.JPG",
+  "IDG_20251023_191720_783.JPG",
+  "b9b7b9952338bf068c1f88116197310a.JPG",
+  "IMG_0055.jpg",
+  "IMG_0976.jpeg",
+  "IMG_0266.jpeg",
+  "IMG_0327.jpeg",
+  "IMG_0464.jpeg",
+  "IMG_0586.jpeg",
+  "IMG_1517.jpeg",
+  // "IMG_1928.jpeg",
+
+  
+
 ];
 
 const PhotoCards: React.FC = () => {
